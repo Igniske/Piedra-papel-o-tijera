@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+color: white;
+}
+
+#app{
+    height: 100%;
+    min-height: 100vh;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1, .elecciones, #resultado, .botones, .contador{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 10px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+button, .losses, .wins{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+button:not(#reset){
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+button:hover{
+    scale:1.2;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 5px;
+}
+
+#victorias, #derrotas{
+    font-size: 30px;
+}
+
+#jugador-uno, #jugador-dos{
+    background-color: white;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 10px;
+    border-style:groove;
+}
+
+#reset{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center ;
+    top: 5%;
+    left: 85%;
+    border-radius: 50%;
+    background-color: #000428;
+    font-weight: bold;
+    border-style: outset;
+    border-color: antiquewhite;
+}
